@@ -10,16 +10,39 @@
 .side-top{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #253141;
+}
+.header-name a {
+  color:#fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+.chat-button a{
+  border: 1px solid lightblue;
+  font-size: 10px;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 .side-main{
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+.room{
+  padding:20px 0 40px 0;
+}
+.chat-room a{
+  text-decoration: none;
+  color: white;
 }
 .chat{
   width: calc(100vw - 300px);
   background-color: #ffffff;
-
 }
 
 .chat-top{
