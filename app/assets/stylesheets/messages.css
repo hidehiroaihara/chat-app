@@ -90,7 +90,11 @@
   color: #999;
   padding-left: 10px;
 }
+
 .lower-message{
+  margin-top: 10px;
+}
+.message-content{
   font-size: 14px;
   color: #434A54;
   margin-bottom: 40px;
